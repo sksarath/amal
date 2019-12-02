@@ -1,0 +1,73 @@
+$headerBg: #FFF;
+$headerColor: #000;
+.header
+{
+  display: block;
+  background: $headerBg;
+  color: $headerColor;
+  padding: 8px 0;
+  text-align: left;
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,0.19);
+  position: relative;
+  z-index: 5;
+  .logo
+  {
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .heading
+  {
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 15px;
+  }
+}
+.header-flex-wrapper {
+  display: flex;
+  vertical-align: middle;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-link-wrapper {
+  ul {
+    margin-left: 0;
+    color: #000;
+    font-size: 14px;
+  }
+  li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  select {
+    border: 0;
+    appearance: none;
+    text-transform: uppercase;
+    background: url('../../images/sort-down.png');
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    font-size: 14px;
+    padding: 0 18px;
+    font-weight: 500;
+    background-size: 8px;
+    background-position: right center;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.6;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@media only screen and (max-width:768px)
+{
+  .header
+  {
+    text-align: center;
+  } 
+}

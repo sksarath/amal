@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>ic_vertical_align_top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,10 C0,4.4771525 4.47593818,0 10,0 L10,0 C15.5228475,0 20,4.47593818 20,10 L20,10 C20,15.5228475 15.5240618,20 10,20 L10,20 C4.4771525,20 0,15.5240618 0,10 L0,10 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-Copy" transform="translate(-231.000000, -35.000000)">
+            <g id="ic_vertical_align_top" transform="translate(231.000000, 35.000000)">
+                <g id="Icon-24px">
+                    <g id="Shape">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill-opacity="0.194192526" fill="#00BC20" xlink:href="#path-1"></use>
+                        <polygon fill="#00BC20" mask="url(#mask-2)" points="9 9 9 22 11 22 11 9 14 9 10 5 6 9"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
