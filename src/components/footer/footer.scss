@@ -4,6 +4,9 @@
   box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.4);
   overflow: hidden;
 }
+.footer-container {
+  padding: 0 20px;
+}
 .badge-list {
   list-style: none;
   padding: 0;
@@ -213,6 +216,9 @@
 @media only screen and (max-width:768px) {
   .badge-list {
     width: 100%;
+  }
+  .footer-container {
+    padding: 0 0;
   }
   .subscribe-form {
     .custom-input {

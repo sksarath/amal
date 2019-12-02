@@ -124,7 +124,7 @@ export default class Footer extends Component {
         <footer className="footer-wrapper">
           <div className="relative max-width-2">
             <div className="">
-              <div className="max-width relative">
+              <div className="max-width relative footer-container">
                 <h1 className="comm-heading">
                   Get latest updates on<br></br>
                   your favourite stars in seconds <span role="img">⚡</span>
